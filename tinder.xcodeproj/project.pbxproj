@@ -13,6 +13,10 @@
 		385CF68F1AFC4A02001558A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385CF68E1AFC4A02001558A7 /* Images.xcassets */; };
 		385CF6921AFC4A02001558A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385CF6901AFC4A02001558A7 /* LaunchScreen.xib */; };
 		385CF69E1AFC4A02001558A7 /* tinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385CF69D1AFC4A02001558A7 /* tinderTests.swift */; };
+		385CF6A81AFC590C001558A7 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385CF6A71AFC590C001558A7 /* CardsViewController.swift */; };
+		385CF6AA1AFC5A06001558A7 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385CF6A91AFC5A06001558A7 /* DraggableView.swift */; };
+		385CF6AC1AFC5D67001558A7 /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385CF6AB1AFC5D67001558A7 /* DraggableImageView.xib */; };
+		385CF6AE1AFC5D99001558A7 /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385CF6AD1AFC5D99001558A7 /* DraggableImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		385CF6971AFC4A02001558A7 /* tinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		385CF69C1AFC4A02001558A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		385CF69D1AFC4A02001558A7 /* tinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinderTests.swift; sourceTree = "<group>"; };
+		385CF6A71AFC590C001558A7 /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		385CF6A91AFC5A06001558A7 /* DraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		385CF6AB1AFC5D67001558A7 /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
+		385CF6AD1AFC5D99001558A7 /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 				385CF6871AFC4A02001558A7 /* AppDelegate.swift */,
 				385CF6891AFC4A02001558A7 /* ViewController.swift */,
 				385CF68B1AFC4A02001558A7 /* Main.storyboard */,
+				385CF6A91AFC5A06001558A7 /* DraggableView.swift */,
+				385CF6AD1AFC5D99001558A7 /* DraggableImageView.swift */,
+				385CF6AB1AFC5D67001558A7 /* DraggableImageView.xib */,
+				385CF6A71AFC590C001558A7 /* CardsViewController.swift */,
 				385CF68E1AFC4A02001558A7 /* Images.xcassets */,
 				385CF6901AFC4A02001558A7 /* LaunchScreen.xib */,
 				385CF6851AFC4A02001558A7 /* Supporting Files */,
@@ -194,6 +206,7 @@
 			files = (
 				385CF68D1AFC4A02001558A7 /* Main.storyboard in Resources */,
 				385CF6921AFC4A02001558A7 /* LaunchScreen.xib in Resources */,
+				385CF6AC1AFC5D67001558A7 /* DraggableImageView.xib in Resources */,
 				385CF68F1AFC4A02001558A7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				385CF68A1AFC4A02001558A7 /* ViewController.swift in Sources */,
+				385CF6AE1AFC5D99001558A7 /* DraggableImageView.swift in Sources */,
 				385CF6881AFC4A02001558A7 /* AppDelegate.swift in Sources */,
+				385CF6AA1AFC5A06001558A7 /* DraggableView.swift in Sources */,
+				385CF6A81AFC590C001558A7 /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
